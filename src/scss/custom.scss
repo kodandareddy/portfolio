@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,400'), url('https://fonts.googleapis.com/css?family=Lato:100');
+$primary: #000000;
+$theme-colors: (
+  "primary": #0074d9,
+  "danger": #ff4136,
+  "bs-navbar-hover-color":#fff
+);
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+
+body{
+  font-family: 'Montserrat', sans-serif;
+ font-weight: 100;
+ background: linear-gradient(135deg, rgb(0, 0, 0), rgba(0, 0, 0, 0.81) 40%, rgba(53, 31, 4, 0.62) 100%), url('../../../public/images/bg.jpg') #000;
+  background-attachment: fixed;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.app{
+  overflow: hidden;
+}
+
+.max-width{
+    max-width: 1300px;
+    margin: 0 auto
+}
+
+

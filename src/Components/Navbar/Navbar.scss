@@ -1,0 +1,35 @@
+.ml-auto{
+    margin-left: auto;
+}
+.navbar{
+    min-height: 3.25rem !important;
+    background:  transparent;
+    transition: all ease !important ;
+    text-align: center;
+   
+}
+
+.navbar-nav a,.navbar-nav a:hover,.navbar-nav a,.navbar-nav a:focus{
+    color: #fff ;
+    font-size: 1.2rem ; 
+}
+
+.navbar .navbar-brand,.navbar .navbar-brand:hover{
+    color: #FFCF20 ;
+    font-size: 3rem;
+
+}
+.navbar .navbar-brand span{
+    color: #fff;
+}
+
+.navbar-nav{
+    gap: 50px;
+}
+.navbar-toggler{
+    background-color: #FFCF20 !important;
+}
+.navbar.navbar_shadow{
+    background: rgba(0, 0, 0, 0.9) !important;
+    transition:2s !important;
+}
