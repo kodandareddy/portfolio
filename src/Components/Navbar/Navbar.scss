@@ -3,9 +3,9 @@
 }
 .navbar{
     min-height: 3.25rem !important;
-    background:  transparent;
+    background:  transparent !important;
     transition: all ease !important ;
-    text-align: center;
+    text-align: center !important;
    
 }
 
@@ -29,7 +29,14 @@
 .navbar-toggler{
     background-color: #FFCF20 !important;
 }
-.navbar.navbar_shadow{
+.navbar.navbar_shadow,.navbar-expand-lg{
     background: rgba(0, 0, 0, 0.9) !important;
     transition:2s !important;
+}
+
+
+@media (min-width: 992px){
+    .navbar-expand-lg{
+background: transparent !important;
+    }
 }
